@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
     vendor/hp/bowser/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/hp/bowser/proprietary/lib/hw/keystore.tegra.so:system/lib/hw/keystore.tegra.so \
+    vendor/hp/bowser/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/hp/bowser/proprietary/bin/powerservice:system/bin/powerservice \
     vendor/hp/bowser/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
     vendor/hp/bowser/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
