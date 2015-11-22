@@ -38,10 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/hp/bowser/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/hp/bowser/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/hp/bowser/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
-    vendor/hp/bowser/proprietary/lib/hw/gps.broadcom.so:system/lib/hw/gps.broadcom.so \
-    vendor/hp/bowser/proprietary/lib/hw/gps.huawei.so:system/lib/hw/gps.huawei.so \
-    vendor/hp/bowser/proprietary/lib/libhuawei-ril.so:system/lib/libhuawei-ril.so \
     vendor/hp/bowser/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/hp/bowser/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/hp/bowser/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
