@@ -125,8 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libsensors.cm3218.so:system/lib/libsensors.cm3218.so \
     vendor/hp/bowser/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
     vendor/hp/bowser/proprietary/bin/syntouchpad:system/bin/syntouchpad \
-    vendor/hp/bowser/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
-    vendor/hp/bowser/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/hp/bowser/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/hp/bowser/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
     vendor/hp/bowser/proprietary/bin/ussrd:system/bin/ussrd \
