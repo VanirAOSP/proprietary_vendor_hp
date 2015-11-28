@@ -111,9 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
     vendor/hp/bowser/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
-    vendor/hp/bowser/proprietary/bin/powerservice:system/bin/powerservice \
-    vendor/hp/bowser/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
-    vendor/hp/bowser/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
     vendor/hp/bowser/proprietary/vendor/lib/hw/power.bowser.so:system/vendor/lib/hw/power.bowser.so \
     vendor/hp/bowser/proprietary/lib/hw/sensors.bowser.so:system/lib/hw/sensors.bowser.so \
     vendor/hp/bowser/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
