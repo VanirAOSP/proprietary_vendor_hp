@@ -100,6 +100,8 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hp/bowser/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/hp/bowser/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
+    vendor/hp/bowser/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
+    vendor/hp/bowser/proprietary/lib/hw/gps.broadcom.so:system/lib/hw/gps.broadcom.so \
     vendor/hp/bowser/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/hp/bowser/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
@@ -129,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libussrd.so:system/lib/libussrd.so \
     vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
     vendor/hp/bowser/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
-    vendor/hp/bowser/proprietary/bin/wwan_loader.sh:system/bin/wwan_loader.sh \
     vendor/hp/bowser/proprietary/etc/firmware/mp_rtl8723b_fw:system/etc/firmware/mp_rtl8723b_fw \
     vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_config:system/etc/firmware/rtl8723b_config \
     vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_fw:system/etc/firmware/rtl8723b_fw
