@@ -115,8 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
     vendor/hp/bowser/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
     vendor/hp/bowser/proprietary/vendor/lib/hw/power.bowser.so:system/vendor/lib/hw/power.bowser.so \
-    vendor/hp/bowser/proprietary/bin/wlbwservice:system/bin/wlbwservice \
-    vendor/hp/bowser/proprietary/lib/libwlbwservice.so:system/lib/libwlbwservice.so \
     vendor/hp/bowser/proprietary/lib/hw/sensors.bowser.so:system/lib/hw/sensors.bowser.so \
     vendor/hp/bowser/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hp/bowser/proprietary/lib/libmllite.so:system/lib/libmllite.so \
