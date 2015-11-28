@@ -125,8 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libsensors.cm3218.so:system/lib/libsensors.cm3218.so \
     vendor/hp/bowser/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
     vendor/hp/bowser/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/hp/bowser/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
-    vendor/hp/bowser/proprietary/bin/ussrd:system/bin/ussrd \
     vendor/hp/bowser/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/hp/bowser/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
     vendor/hp/bowser/proprietary/lib/libgov_cores.so:system/lib/libgov_cores.so \
@@ -134,6 +132,8 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
     vendor/hp/bowser/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
     vendor/hp/bowser/proprietary/lib/libussrd.so:system/lib/libussrd.so \
+    vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
+    vendor/hp/bowser/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
     vendor/hp/bowser/proprietary/bin/wwan_loader.sh:system/bin/wwan_loader.sh \
     vendor/hp/bowser/proprietary/etc/firmware/mp_rtl8723b_fw:system/etc/firmware/mp_rtl8723b_fw \
     vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_config:system/etc/firmware/rtl8723b_config \
