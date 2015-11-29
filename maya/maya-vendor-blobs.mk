@@ -118,19 +118,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/hp/maya/proprietary/lib/libsensors.cm3218.so:system/lib/libsensors.cm3218.so \
     vendor/hp/maya/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
-    vendor/hp/maya/proprietary/bin/syntouchpad:system/bin/syntouchpad \
     vendor/hp/maya/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
     vendor/hp/maya/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/hp/maya/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/hp/maya/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
-    vendor/hp/maya/proprietary/bin/ussrd:system/bin/ussrd \
-    vendor/hp/maya/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
-    vendor/hp/maya/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
-    vendor/hp/maya/proprietary/lib/libgov_cores.so:system/lib/libgov_cores.so \
-    vendor/hp/maya/proprietary/lib/libgov_cpufs.so:system/lib/libgov_cpufs.so \
-    vendor/hp/maya/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
-    vendor/hp/maya/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
-    vendor/hp/maya/proprietary/lib/libussrd.so:system/lib/libussrd.so \
     vendor/hp/maya/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
     vendor/hp/maya/proprietary/etc/nvram_4334.txt:system/etc/nvram_4334.txt \
     vendor/hp/maya/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
