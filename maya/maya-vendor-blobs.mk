@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
     vendor/hp/maya/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/hp/maya/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/hp/maya/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
     vendor/hp/maya/proprietary/etc/nvram_4334.txt:system/etc/nvram_4334.txt \
     vendor/hp/maya/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
     vendor/hp/maya/proprietary/vendor/firmware/bcm4334/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4334/fw_bcmdhd_apsta.bin
