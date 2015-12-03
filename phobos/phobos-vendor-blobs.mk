@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/hw/audio_policy.tegra4.so:system/lib/hw/audio_policy.tegra4.so \
     vendor/hp/phobos/proprietary/lib/hw/audio.primary.tegra4.so:system/lib/hw/audio.primary.tegra4.so \
+    vendor/hp/phobos/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hp/phobos/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/hp/phobos/proprietary/lib/libnvcapaudioservice.so:system/lib/libnvcapaudioservice.so \
     vendor/hp/phobos/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
@@ -39,8 +40,11 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/hp/phobos/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/hp/phobos/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/hp/phobos/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
+    vendor/hp/phobos/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
+    vendor/hp/phobos/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/hp/phobos/proprietary/lib/hw/gralloc.tegra4.so:system/lib/hw/gralloc.tegra4.so \
     vendor/hp/phobos/proprietary/lib/hw/hwcomposer.tegra4.so:system/lib/hw/hwcomposer.tegra4.so \
@@ -48,9 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hp/phobos/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hp/phobos/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
-    vendor/hp/phobos/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
-    vendor/hp/phobos/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
-    vendor/hp/phobos/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/hp/phobos/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/hp/phobos/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
@@ -94,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/hp/phobos/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/hp/phobos/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
+    vendor/hp/phobos/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
     vendor/hp/phobos/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hp/phobos/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/hp/phobos/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
@@ -102,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
+    vendor/hp/phobos/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/hp/phobos/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
     vendor/hp/phobos/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
