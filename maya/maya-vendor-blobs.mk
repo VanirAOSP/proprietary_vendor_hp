@@ -32,7 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hp/maya/proprietary/bin/charge_detect_daemon:system/bin/charge_detect_daemon \
     vendor/hp/maya/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/hp/maya/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/hp/maya/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/hp/maya/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/hp/maya/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/hp/maya/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/hp/maya/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
