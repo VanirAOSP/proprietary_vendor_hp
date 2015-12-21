@@ -121,8 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/hp/phobos/proprietary/lib/librm_ts_service.so:system/lib/librm_ts_service.so \
     vendor/hp/phobos/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-    vendor/hp/phobos/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
-    vendor/hp/phobos/proprietary/bin/ussrd:system/bin/ussrd \
     vendor/hp/phobos/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/hp/phobos/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
     vendor/hp/phobos/proprietary/lib/libgov_cores.so:system/lib/libgov_cores.so \
@@ -130,6 +128,8 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
     vendor/hp/phobos/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
     vendor/hp/phobos/proprietary/lib/libussrd.so:system/lib/libussrd.so \
+    vendor/hp/phobos/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
+    vendor/hp/phobos/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
     vendor/hp/phobos/proprietary/etc/nvram_4334.txt:system/etc/nvram_4334.txt \
     vendor/hp/phobos/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
     vendor/hp/phobos/proprietary/vendor/firmware/bcm4334/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4334/fw_bcmdhd_apsta.bin
