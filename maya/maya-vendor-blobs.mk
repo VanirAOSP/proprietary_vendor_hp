@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/hp/maya/proprietary/lib/libnvcapaudioservice.so:system/lib/libnvcapaudioservice.so \
     vendor/hp/maya/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
+    vendor/hp/maya/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hp/maya/proprietary/bin/btmaccreator:system/bin/btmaccreator \
     vendor/hp/maya/proprietary/etc/firmware/bcm4334.hcd:system/etc/firmware/bcm4334.hcd \
     vendor/hp/maya/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
