@@ -113,10 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/etc/firmware/maya_ec.bin:system/etc/firmware/maya_ec.bin \
     vendor/hp/maya/proprietary/etc/firmware/maya_ec_hpsign.bin:system/etc/firmware/maya_ec_hpsign.bin \
     vendor/hp/maya/proprietary/etc/firmware/OfficialPubKey.bin:system/etc/firmware/OfficialPubKey.bin \
-    vendor/hp/maya/proprietary/bin/powerservice:system/bin/powerservice \
-    vendor/hp/maya/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
-    vendor/hp/maya/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
-    vendor/hp/maya/proprietary/vendor/lib/hw/power.maya.so:system/vendor/lib/hw/power.maya.so \
     vendor/hp/maya/proprietary/lib/hw/sensors.maya.so:system/lib/hw/sensors.maya.so \
     vendor/hp/maya/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hp/maya/proprietary/lib/libmllite.so:system/lib/libmllite.so \
