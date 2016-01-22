@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/ranger/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/hp/ranger/proprietary/lib/hw/keystore.tegra4.so:system/lib/hw/keystore.tegra4.so \
     vendor/hp/ranger/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
-    vendor/hp/ranger/proprietary/vendor/lib/hw/power.ranger.so:system/vendor/lib/hw/power.ranger.so \
     vendor/hp/ranger/proprietary/bin/rm_ts_server:system/bin/rm_ts_server \
     vendor/hp/ranger/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
     vendor/hp/ranger/proprietary/lib/librm31080.so:system/lib/librm31080.so \
