@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libfcamdng.so:system/lib/libfcamdng.so \
     vendor/hp/maya/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/hp/maya/proprietary/lib/libnvcam_imageencoder.so:system/lib/libnvcam_imageencoder.so \
+    vendor/hp/maya/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
+    vendor/hp/maya/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
+    vendor/hp/maya/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/hp/maya/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/hp/maya/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hp/maya/proprietary/bin/charge_detect_daemon:system/bin/charge_detect_daemon \
@@ -51,17 +54,20 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hp/maya/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/hp/maya/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
+    vendor/hp/maya/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
+    vendor/hp/maya/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
     vendor/hp/maya/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/hp/maya/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
     vendor/hp/maya/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
-    vendor/hp/maya/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
-    vendor/hp/maya/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/hp/maya/proprietary/lib/libnvcms.so:system/lib/libnvcms.so \
     vendor/hp/maya/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
     vendor/hp/maya/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/hp/maya/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/hp/maya/proprietary/lib/libnvfusebypass.so:system/lib/libnvfusebypass.so \
     vendor/hp/maya/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
+    vendor/hp/maya/proprietary/lib/libnvmm_asfparser.so:system/lib/libnvmm_asfparser.so \
+    vendor/hp/maya/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
+    vendor/hp/maya/proprietary/lib/libnvmm_aviparser.so:system/lib/libnvmm_aviparser.so \
     vendor/hp/maya/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/hp/maya/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
     vendor/hp/maya/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
@@ -79,7 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
     vendor/hp/maya/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
     vendor/hp/maya/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
-    vendor/hp/maya/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
+    vendor/hp/maya/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
+    vendor/hp/maya/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
     vendor/hp/maya/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/hp/maya/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/hp/maya/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
@@ -89,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/hp/maya/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/hp/maya/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
-    vendor/hp/maya/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/hp/maya/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
     vendor/hp/maya/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so \
     vendor/hp/maya/proprietary/lib/libnvtnr.so:system/lib/libnvtnr.so \
@@ -107,6 +113,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/hp/maya/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/hp/maya/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
+    vendor/hp/maya/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
+    vendor/hp/maya/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
+    vendor/hp/maya/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
     vendor/hp/maya/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/hp/maya/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/hp/maya/proprietary/bin/maya_ec_flash:system/bin/maya_ec_flash \
