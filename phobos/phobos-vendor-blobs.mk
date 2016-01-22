@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hp/phobos/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/hp/phobos/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
+    vendor/hp/phobos/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
+    vendor/hp/phobos/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
     vendor/hp/phobos/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/hp/phobos/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
     vendor/hp/phobos/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
@@ -62,7 +64,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/hp/phobos/proprietary/lib/libnvfusebypass.so:system/lib/libnvfusebypass.so \
     vendor/hp/phobos/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
+    vendor/hp/phobos/proprietary/lib/libnvmm_asfparser.so:system/lib/libnvmm_asfparser.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
+    vendor/hp/phobos/proprietary/lib/libnvmm_aviparser.so:system/lib/libnvmm_aviparser.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
     vendor/hp/phobos/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
@@ -80,6 +84,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
+    vendor/hp/phobos/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
+    vendor/hp/phobos/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
+    vendor/hp/phobos/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
     vendor/hp/phobos/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/hp/phobos/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/hp/phobos/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
