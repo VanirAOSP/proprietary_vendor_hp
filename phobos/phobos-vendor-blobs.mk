@@ -112,9 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/hp/phobos/proprietary/lib/hw/keystore.tegra4.so:system/lib/hw/keystore.tegra4.so \
     vendor/hp/phobos/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
-    vendor/hp/phobos/proprietary/bin/powerservice:system/bin/powerservice \
-    vendor/hp/phobos/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
-    vendor/hp/phobos/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
     vendor/hp/phobos/proprietary/vendor/lib/hw/power.phobos.so:system/vendor/lib/hw/power.phobos.so \
     vendor/hp/phobos/proprietary/bin/rm_ts_server:system/bin/rm_ts_server \
     vendor/hp/phobos/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
