@@ -121,5 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libussrd.so:system/lib/libussrd.so \
     vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
     vendor/hp/bowser/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
-    vendor/hp/bowser/proprietary/etc/firmware/bt/rtl8723b_config:system/etc/firmware/bt/rtl8723b_config \
-    vendor/hp/bowser/proprietary/etc/firmware/bt/rtl8723b_fw:system/etc/firmware/bt/rtl8723b_fw
+    vendor/hp/bowser/proprietary/etc/firmware/mp_rtl8723b_fw:system/etc/firmware/mp_rtl8723b_fw \
+    vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_config:system/etc/firmware/rtl8723b_config \
+    vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_fw:system/etc/firmware/rtl8723b_fw
