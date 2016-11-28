@@ -100,8 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hp/bowser/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/hp/bowser/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
-    vendor/hp/bowser/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
-    vendor/hp/bowser/proprietary/lib/hw/gps.broadcom.so:system/lib/hw/gps.broadcom.so \
     vendor/hp/bowser/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/hp/bowser/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
@@ -114,13 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
     vendor/hp/bowser/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
     vendor/hp/bowser/proprietary/vendor/lib/hw/power.bowser.so:system/vendor/lib/hw/power.bowser.so \
-    vendor/hp/bowser/proprietary/lib/hw/sensors.bowser.so:system/lib/hw/sensors.bowser.so \
-    vendor/hp/bowser/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    vendor/hp/bowser/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    vendor/hp/bowser/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-    vendor/hp/bowser/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
-    vendor/hp/bowser/proprietary/lib/libsensors.cm3218.so:system/lib/libsensors.cm3218.so \
-    vendor/hp/bowser/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
     vendor/hp/bowser/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/hp/bowser/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/hp/bowser/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
@@ -131,6 +122,5 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libussrd.so:system/lib/libussrd.so \
     vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
     vendor/hp/bowser/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
-    vendor/hp/bowser/proprietary/etc/firmware/mp_rtl8723b_fw:system/etc/firmware/mp_rtl8723b_fw \
-    vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_config:system/etc/firmware/rtl8723b_config \
-    vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_fw:system/etc/firmware/rtl8723b_fw
+    vendor/hp/bowser/proprietary/etc/firmware/bt/rtl8723b_config:system/etc/firmware/bt/rtl8723b_config \
+    vendor/hp/bowser/proprietary/etc/firmware/bt/rtl8723b_fw:system/etc/firmware/bt/rtl8723b_fw
