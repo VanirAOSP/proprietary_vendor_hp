@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
     vendor/hp/bowser/proprietary/etc/hdcpsrm/hdcp2xtest.srm:system/etc/hdcpsrm/hdcp2xtest.srm \
     vendor/hp/bowser/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
-    vendor/hp/bowser/proprietary/vendor/lib/hw/power.bowser.so:system/vendor/lib/hw/power.bowser.so \
     vendor/hp/bowser/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/hp/bowser/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/hp/bowser/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
