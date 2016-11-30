@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/hp/bowser/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/hp/bowser/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/hp/bowser/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/hp/bowser/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/hp/bowser/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/hp/bowser/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
