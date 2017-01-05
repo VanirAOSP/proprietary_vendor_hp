@@ -16,8 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/bin/bowser_ec_flash:system/bin/bowser_ec_flash \
-    vendor/hp/bowser/proprietary/bin/input_cfboost_init.sh:system/bin/input_cfboost_init.sh \
-    vendor/hp/bowser/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/hp/bowser/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/hp/bowser/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/hp/bowser/proprietary/etc/enctune.conf:system/etc/enctune.conf \
@@ -27,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
-    vendor/hp/bowser/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/hp/bowser/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/hp/bowser/proprietary/etc/firmware/OfficialPubKey.bin:system/etc/firmware/OfficialPubKey.bin \
     vendor/hp/bowser/proprietary/etc/firmware/rtl8723b_config:system/etc/firmware/rtl8723b_config \
@@ -48,83 +45,75 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/hp/bowser/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/hp/bowser/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/hp/bowser/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
-    vendor/hp/bowser/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
-    vendor/hp/bowser/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
-    vendor/hp/bowser/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
-    vendor/hp/bowser/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hp/bowser/proprietary/lib/libfcamdng.so:system/lib/libfcamdng.so \
-    vendor/hp/bowser/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
-    vendor/hp/bowser/proprietary/lib/libgov_cores.so:system/lib/libgov_cores.so \
-    vendor/hp/bowser/proprietary/lib/libgov_cpufs.so:system/lib/libgov_cpufs.so \
-    vendor/hp/bowser/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
-    vendor/hp/bowser/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
-    vendor/hp/bowser/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/hp/bowser/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
-    vendor/hp/bowser/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
-    vendor/hp/bowser/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
     vendor/hp/bowser/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/hp/bowser/proprietary/lib/libnvcam_imageencoder.so:system/lib/libnvcam_imageencoder.so \
     vendor/hp/bowser/proprietary/lib/libnvcapaudioservice.so:system/lib/libnvcapaudioservice.so \
     vendor/hp/bowser/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
-    vendor/hp/bowser/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
-    vendor/hp/bowser/proprietary/lib/libnvcms.so:system/lib/libnvcms.so \
-    vendor/hp/bowser/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
-    vendor/hp/bowser/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
-    vendor/hp/bowser/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
-    vendor/hp/bowser/proprietary/lib/libnvfusebypass.so:system/lib/libnvfusebypass.so \
-    vendor/hp/bowser/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/hp/bowser/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
-    vendor/hp/bowser/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
-    vendor/hp/bowser/proprietary/lib/libnvmmlite_image.so:system/lib/libnvmmlite_image.so \
-    vendor/hp/bowser/proprietary/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
-    vendor/hp/bowser/proprietary/lib/libnvmmlite.so:system/lib/libnvmmlite.so \
-    vendor/hp/bowser/proprietary/lib/libnvmmlite_utils.so:system/lib/libnvmmlite_utils.so \
-    vendor/hp/bowser/proprietary/lib/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_manager.so:system/lib/libnvmm_manager.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_msaudio.so:system/lib/libnvmm_msaudio.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_parser.so:system/lib/libnvmm_parser.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
-    vendor/hp/bowser/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
     vendor/hp/bowser/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
-    vendor/hp/bowser/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/hp/bowser/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
-    vendor/hp/bowser/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
-    vendor/hp/bowser/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
-    vendor/hp/bowser/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
-    vendor/hp/bowser/proprietary/lib/libnvos.so:system/lib/libnvos.so \
-    vendor/hp/bowser/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
-    vendor/hp/bowser/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
-    vendor/hp/bowser/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
-    vendor/hp/bowser/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
-    vendor/hp/bowser/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
-    vendor/hp/bowser/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so \
-    vendor/hp/bowser/proprietary/lib/libnvtnr.so:system/lib/libnvtnr.so \
-    vendor/hp/bowser/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
-    vendor/hp/bowser/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
-    vendor/hp/bowser/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/hp/bowser/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/hp/bowser/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/hp/bowser/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
-    vendor/hp/bowser/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hp/bowser/proprietary/lib/libtbb.so:system/lib/libtbb.so \
-    vendor/hp/bowser/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
-    vendor/hp/bowser/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
-    vendor/hp/bowser/proprietary/lib/libussrd.so:system/lib/libussrd.so \
+    vendor/hp/bowser/proprietary/vendor/bin/nvcgcserver:system/vendor/bin/nvcgcserver \
     vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
     vendor/hp/bowser/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
-    vendor/hp/bowser/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/hp/bowser/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/hp/bowser/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libaudioavp.so:system/vendor/lib/libaudioavp.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libcgdrv.so:system/vendor/lib/libcgdrv.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libcplconnectclient.so:system/vendor/lib/libcplconnectclient.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libgov_combinator.so:system/vendor/lib/libgov_combinator.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libgov_cores.so:system/vendor/lib/libgov_cores.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libgov_cpufs.so:system/vendor/lib/libgov_cpufs.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libgov_gpufs.so:system/vendor/lib/libgov_gpufs.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libgov_tbc.so:system/vendor/lib/libgov_tbc.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvcms.so:system/vendor/lib/libnvcms.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvcpl.so:system/vendor/lib/libnvcpl.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvddk_2d.so:system/vendor/lib/libnvddk_2d.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvddk_2d_v2.so:system/vendor/lib/libnvddk_2d_v2.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvfusebypass.so:system/vendor/lib/libnvfusebypass.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvglsi.so:system/vendor/lib/libnvglsi.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_audio.so:system/vendor/lib/libnvmm_audio.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_contentpipe.so:system/vendor/lib/libnvmm_contentpipe.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_image.so:system/vendor/lib/libnvmm_image.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmmlite_audio.so:system/vendor/lib/libnvmmlite_audio.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmmlite_image.so:system/vendor/lib/libnvmmlite_image.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmmlite.so:system/vendor/lib/libnvmmlite.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmmlite_utils.so:system/vendor/lib/libnvmmlite_utils.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmmlite_video.so:system/vendor/lib/libnvmmlite_video.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_manager.so:system/vendor/lib/libnvmm_manager.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_parser.so:system/vendor/lib/libnvmm_parser.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_service.so:system/vendor/lib/libnvmm_service.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm.so:system/vendor/lib/libnvmm.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_utils.so:system/vendor/lib/libnvmm_utils.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_video.so:system/vendor/lib/libnvmm_video.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvmm_writer.so:system/vendor/lib/libnvmm_writer.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvodm_dtvtuner.so:system/vendor/lib/libnvodm_dtvtuner.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvodm_hdmi.so:system/vendor/lib/libnvodm_hdmi.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvodm_misc.so:system/vendor/lib/libnvodm_misc.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvodm_query.so:system/vendor/lib/libnvodm_query.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvomxadaptor.so:system/vendor/lib/libnvomxadaptor.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvrm_graphics.so:system/vendor/lib/libnvrm_graphics.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvsm.so:system/vendor/lib/libnvsm.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvtestio.so:system/vendor/lib/libnvtestio.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvtestresults.so:system/vendor/lib/libnvtestresults.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvtnr.so:system/vendor/lib/libnvtnr.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvwinsys.so:system/vendor/lib/libnvwinsys.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so
 
 PRODUCT_PACKAGES += \
     libtf_crypto_sst
