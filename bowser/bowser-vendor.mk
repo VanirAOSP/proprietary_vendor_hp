@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/hp/bowser/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/hp/bowser/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
+    vendor/hp/bowser/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hp/bowser/proprietary/lib/libfcamdng.so:system/lib/libfcamdng.so \
     vendor/hp/bowser/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/hp/bowser/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
@@ -54,6 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
     vendor/hp/bowser/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
     vendor/hp/bowser/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
+    vendor/hp/bowser/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/hp/bowser/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/hp/bowser/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
     vendor/hp/bowser/proprietary/lib/libstlport.so:system/lib/libstlport.so \
@@ -114,7 +116,11 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
     vendor/hp/bowser/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so \
     vendor/hp/bowser/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so
+    vendor/hp/bowser/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/hp/bowser/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/hp/bowser/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
     libtf_crypto_sst
