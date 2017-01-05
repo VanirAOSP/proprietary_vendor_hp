@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/hp/bowser/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/hp/bowser/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
+    vendor/hp/bowser/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/hp/bowser/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hp/bowser/proprietary/vendor/bin/nvcgcserver:system/vendor/bin/nvcgcserver \
     vendor/hp/bowser/proprietary/vendor/bin/usdwatchdog:system/vendor/bin/usdwatchdog \
