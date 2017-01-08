@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvrm_graphics.so:system/vendor/lib/libnvrm_graphics.so \
-    vendor/hp/bowser/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvsm.so:system/vendor/lib/libnvsm.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvtestio.so:system/vendor/lib/libnvtestio.so \
     vendor/hp/bowser/proprietary/vendor/lib/libnvtestresults.so:system/vendor/lib/libnvtestresults.so \
@@ -125,4 +124,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libinvensense_hal \
     libmplmpu \
-    libtf_crypto_sst
+    libtf_crypto_sst \
+    libnvrm
