@@ -123,4 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
+    libinvensense_hal \
+    libmplmpu \
     libtf_crypto_sst

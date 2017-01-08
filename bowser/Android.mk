@@ -19,6 +19,26 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),bowser)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libinvensense_hal
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/lib/libinvensense_hal.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmplmpu
+LOCAL_MODULE_OWNER := hp
+LOCAL_SRC_FILES := proprietary/lib/libmplmpu.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libtf_crypto_sst
 LOCAL_MODULE_OWNER := hp
 LOCAL_SRC_FILES := proprietary/lib/libtf_crypto_sst.so
