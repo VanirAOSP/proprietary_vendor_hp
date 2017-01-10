@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/bowser/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/hp/bowser/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/hp/bowser/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
+    vendor/hp/bowser/proprietary/lib/hw/lights.bowser.so:system/lib/hw/lights.bowser.so \
     vendor/hp/bowser/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hp/bowser/proprietary/lib/libfcamdng.so:system/lib/libfcamdng.so \
     vendor/hp/bowser/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
